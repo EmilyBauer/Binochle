@@ -199,13 +199,15 @@ def game():
     if handPoint2<minPoints:
         print ("Please reshuffle or play durch")
 
-    keywords = ["toss", "durch"]
+    keywords = ["toss", "durch", "up", "weg", "vec","veck","wec"]
 
     print("\n")
     print ("At this point we need to insert a bidding function\nCurrent bid is 200")
     bet = 200
-    myBet = int(input("How high?  "))
-    if myBet>bet:
+    myBet = input("How high?  ")
+    if myBet in keywords:
+        Comp2.playGame = True
+    elif int(myBet)>bet:
         bet = myBet
         Human.playGame = True
     else:
@@ -214,7 +216,7 @@ def game():
     print ("The bid pile; ")
     for i in bidPile:
         print (i.name)
-    if Human.playGame:    
+    if Human.playGame:
         trump = input("What is trump?  ")
         while not trump in suits:
             trump = input("What is trump? Spades, Hearts, Clubs, Diamonds:  ")
