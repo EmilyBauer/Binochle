@@ -498,7 +498,7 @@ def game():
             h.score += h.meldPoints
         h.meldPoints = 0
         h.tricks = []
-        print (" Someone is at ", h.score, " points")
+        print (" Someone is at ", h.score, " points")       #help after
         
 
 
