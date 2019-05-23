@@ -50,7 +50,7 @@ def deal3(deck,P1,P2,P3):
     bidPile.append(drawCard(deck))
     bidPile.append(drawCard(deck))
     while(len(deck)>0):
-        P1.cardHand.append(drawCard(deck))
+        P1.cardHand.append(drawCard(deck))  #human player
         P2.cardHand.append(drawCard(deck))
         P3.cardHand.append(drawCard(deck))
     return bidPile
