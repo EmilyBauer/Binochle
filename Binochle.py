@@ -11,7 +11,7 @@ playFor3 = True
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.name = "Lady Luck"
+        self.name = "Lady Luck"     #Miraculous Ladybug
         self.cardHand = []
         self.lead = False		#First to play a card
         self.deal = False		#Dealer
