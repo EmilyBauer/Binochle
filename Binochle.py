@@ -174,7 +174,8 @@ def game():
     Comp1 = Player()
     Comp2 = Player()
     inits = True
-
+    #somehow in here y'all need to write a function that allows game to be played as games are played
+    #like right about here is good
     if playFor3:
         minPoints = 40
         Human.deal = True
