@@ -176,6 +176,8 @@ def game():
     inits = True
     #somehow in here y'all need to write a function that allows game to be played as games are played
     #like right about here is good
+    #while (Human.score<1500 and Comp1.score<1500 and Comp2<1500):
+        #play another round
     if playFor3:
         minPoints = 40
         Human.deal = True
