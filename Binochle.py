@@ -227,6 +227,7 @@ def game():
         trump = suits[randint(0,len(suits)-1)]
     print ("Trump is ", trump, "\n")
 
+    
     #this is where the meld begins. Ideally the user will have to see themselves what their cards are worth
     #Also ideally would be if I would be able to move this function out. sigh.
     for i in players:
