@@ -178,6 +178,7 @@ def game():
     #like right about here is good
     #while (Human.score<1500 and Comp1.score<1500 and Comp2<1500):
         #play another round
+        #figure out stuff
     if playFor3:
         minPoints = 40
         Human.deal = True
