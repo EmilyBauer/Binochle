@@ -8,6 +8,8 @@ from random import *
 
 playFor3 = True
 
+#Insert a ML Algorithm that is trained at different levels plz
+
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
