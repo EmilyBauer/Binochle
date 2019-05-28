@@ -64,7 +64,7 @@ def game():
     #this is where we make a deck
     deck = []
     suits = ["Spades", "Hearts", "Clubs", "Diamonds"]
-    AS1 = Card(suits[0],11,1,"AS")
+    AS1 = Card(suits[0],11,1,"AS")      #Ace of Spades
     deck.append(AS1)
     AS2 = Card(suits[0],11,2,"AS")
     deck.append(AS2)
