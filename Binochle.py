@@ -32,7 +32,7 @@ class Player(pygame.sprite.Sprite):
         self.cardDisplayHuman = [    ]	#All cards on table/played by user
     def update(self):
         #update cardHand, tricks, wonLastTrick and score
-        print ("meow")
+        print ("meow") #because
 
 class Card(pygame.sprite.Sprite):
     def __init__(self,suit,val,num,name="KD"):
